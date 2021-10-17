@@ -1,2 +1,2 @@
 # HTML-Registration-form
-A small html registration from
+A small html registration form
