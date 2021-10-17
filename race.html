@@ -12,29 +12,28 @@
     <h1>Race registration!</h1>
     <form action="/registration">
         <div>
-            <label for="First"><b>First Name:</b></label>
+            <label for="First">First Name:</label>
             <input type="text" id="First" name="First_name" required>
 
-            <label for="Last"><b>Last Name:</b< /label>
-                    <input type="text" id="Last" name="Last_name" required>
+            <label for="Last">Last Name:</label>
+            <input type="text" id="Last" name="Last_name" required>
 
         </div>
 
-        <div>
-            <h2>Select a Race:</h2>
+        <h2>Select a Race:</h2>
+        <p>
+            <input type="radio" name="race" id="5k" value="5k">
+            <label for="5k">Fun Run 5k</label>
 
-            <input type="radio" name="5k" id="5k">
-            <label for="5k"><b>Fun Run 5k</b></label>
             <br>
-
-            <input type="radio" name="half" id="half">
+            <input type="radio" name="race" id="half" value="half">
             <label for="half">Half Marathon</label>
             <br>
 
-            <input type="radio" name="Full" id="full">
+            <input type="radio" name="race" id="full" value="full">
             <label for="full">Full Marathon</label>
-        </div>
-
+        </p>
+        <br>
         <div>
             <label for="email">Email:</label>
             <input type="email" name="email" id="email" required>
@@ -42,7 +41,7 @@
             <label for="pass">Password:</label>
             <input type="password" name="pass" id="pass" required minlength="5" maxlength="15">
         </div>
-
+        <br>
         <button>Register</button>
     </form>
 </body>
