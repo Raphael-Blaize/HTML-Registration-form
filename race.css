@@ -1,0 +1,32 @@
+body {
+    background-color:#e9c46a ;
+}
+
+h1, h2 {
+    color: #e63946;
+    text-align: center;
+    text-decoration: #6b705c underline ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+    text-align: center;
+}
+
+#register {
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+.marathon {
+    color: #023e8a;
+    text-align: center;
+
+}
+
+button {
+    background-color:#fec5bb ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: right;
+}
+
